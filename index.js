@@ -1,25 +1,66 @@
 var fs = require('fs');
 var path = require('path');
+var stream = require('node:stream');
+var util = require('node:util');
 var relativePath = require('cached-path-relative');
 
 var browserResolve = require('browser-resolve');
 var nodeResolve = require('resolve');
 var detective = require('detective');
-var through = require('through2').default;
-var concat = require('concat-stream');
-var parents = require('parents');
-var combine = require('stream-combiner2');
-var duplexer = require('duplexer2');
-var defined = require('defined');
+
+var Transform = stream.Transform;
+var PassThrough = stream.PassThrough;
+
+// Node >= 22.12 ships everything these packages used to shim, so they are
+// implemented inline over node:stream rather than pulled as dependencies:
+//   through2          -> through()   a PassThrough
+//   duplexer2         -> duplexer()  Duplex.from over a writable/readable pair
+//   stream-combiner2  -> combine()   stream.compose
+//   concat-stream     -> concat()    a Writable that buffers, then hands back one Buffer
+function through () { return new PassThrough(); }
+function duplexer (writable, readable) {
+    return stream.Duplex.from({ writable: writable, readable: readable });
+}
+function combine () { return stream.compose.apply(null, arguments); }
+function concat (cb) {
+    var chunks = [];
+    return new stream.Writable({
+        write: function (chunk, enc, next) {
+            chunks.push(Buffer.isBuffer(chunk)
+                ? chunk
+                : Buffer.from(chunk, enc && enc !== 'buffer' ? enc : 'utf8'));
+            next();
+        },
+        final: function (next) { cb(Buffer.concat(chunks)); next(); }
+    });
+}
+
+// defined(): the first argument that is not undefined (drops the defined dep).
+function defined () {
+    for (var i = 0; i < arguments.length; i++) {
+        if (arguments[i] !== undefined) return arguments[i];
+    }
+}
+
+// parents(): a directory and all of its ancestors, deepest first (drops the
+// parents dep and its path-platform subdependency).
+function parents (dir) {
+    dir = path.resolve(dir === undefined ? process.cwd() : dir);
+    var res = [];
+    for (;;) {
+        res.push(dir);
+        var up = path.dirname(dir);
+        if (up === dir) break;
+        dir = up;
+    }
+    return res;
+}
 
 // xtend replacement: shallow-merge sources into a fresh object (drops the xtend dep).
 function xtend () { return Object.assign.apply(null, [{}].concat([].slice.call(arguments))); }
 
-var inherits = require('inherits');
-var Transform = require('readable-stream').Transform;
-
 module.exports = Deps;
-inherits(Deps, Transform);
+util.inherits(Deps, Transform);
 
 function Deps (opts) {
     var self = this;
