@@ -1,6 +1,6 @@
-var through = require('through2');
+var through = require('through2').default;
 var mdeps = require('../');
-var test = require('tap').test;
+var test = require('./tap-adapter').test;
 
 test('--debug passed to transforms', function (t) {
     var empty = require.resolve('./tr_flags/empty.js');

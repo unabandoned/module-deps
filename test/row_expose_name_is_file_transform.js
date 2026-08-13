@@ -1,6 +1,6 @@
 var parser = require('../');
-var test = require('tap').test;
-var through = require('through2');
+var test = require('./tap-adapter').test;
+var through = require('through2').default;
 var path = require('path');
 
 // test that (non global) transforms are applied to an exposed module, where in the

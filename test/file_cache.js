@@ -1,7 +1,7 @@
 var mdeps = require('../');
-var test = require('tap').test;
+var test = require('./tap-adapter').test;
 var path = require('path');
-var through = require('through2');
+var through = require('through2').default;
 
 var files = {
     foo: path.join(__dirname, '/files/foo.js'),

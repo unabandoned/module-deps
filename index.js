@@ -5,13 +5,15 @@ var relativePath = require('cached-path-relative');
 var browserResolve = require('browser-resolve');
 var nodeResolve = require('resolve');
 var detective = require('detective');
-var through = require('through2');
+var through = require('through2').default;
 var concat = require('concat-stream');
 var parents = require('parents');
 var combine = require('stream-combiner2');
 var duplexer = require('duplexer2');
-var xtend = require('xtend');
 var defined = require('defined');
+
+// xtend replacement: shallow-merge sources into a fresh object (drops the xtend dep).
+function xtend () { return Object.assign.apply(null, [{}].concat([].slice.call(arguments))); }
 
 var inherits = require('inherits');
 var Transform = require('readable-stream').Transform;
