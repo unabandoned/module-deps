@@ -1,8 +1,8 @@
 var mdeps = require('../');
-var test = require('tap').test;
+var test = require('./tap-adapter').test;
 var JSONStream = require('JSONStream');
 var packer = require('browser-pack');
-var through = require('through2');
+var through = require('through2').default;
 var concat = require('concat-stream');
 var path = require('path');
 

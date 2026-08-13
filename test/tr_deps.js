@@ -1,6 +1,6 @@
 var parser = require('../');
-var through = require('through2');
-var test = require('tap').test;
+var through = require('through2').default;
+var test = require('./tap-adapter').test;
 var fs = require('fs');
 var path = require('path');
 

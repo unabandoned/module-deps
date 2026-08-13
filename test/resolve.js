@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 
 var mdeps = require('../');
-var test = require('tap').test;
+var test = require('./tap-adapter').test;
 var nodeResolve = require('resolve');
 var browserResolve = require('browser-resolve');
 

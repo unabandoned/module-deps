@@ -1,6 +1,6 @@
 var mdeps = require('../');
-var test = require('tap').test;
-var through = require('through2');
+var test = require('./tap-adapter').test;
+var through = require('through2').default;
 var path = require('path');
 
 test('dotdot', function (t) {
