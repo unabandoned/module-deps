@@ -1,6 +1,6 @@
 {
   "name": "@unabandoned/module-deps",
-  "version": "6.2.4",
+  "version": "6.2.5",
   "description": "walk the dependency graph to generate json output that can be fed into browser-pack",
   "main": "index.js",
   "bin": {

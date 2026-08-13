@@ -2,6 +2,26 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.2.5](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.4...module-deps-v6.2.5) (2026-08-13)
+
+
+### Bug Fixes
+
+* repoint detective and browser-pack at their [@unabandoned](https://github.com/unabandoned) forks ([#11](https://github.com/unabandoned/module-deps/issues/11)) ([088e12c](https://github.com/unabandoned/module-deps/commit/088e12c2e120650f77f729c0166bcff318bd1df3))
+
+
+### Performance Improvements
+
+* collapse stream shims into node:stream, vendor two leaves ([#5](https://github.com/unabandoned/module-deps/issues/5)) ([d69cbc6](https://github.com/unabandoned/module-deps/commit/d69cbc62bfef342044b3c453e64833108d72cc79))
+
+
+### Dependencies & maintenance
+
+* add Renovate config validation workflow ([#10](https://github.com/unabandoned/module-deps/issues/10)) ([8db4781](https://github.com/unabandoned/module-deps/commit/8db47817caf8c6ca5b7a2bb06011c45a68e6f8f1))
+* **deps:** pin dependency browser-pack to 6.1.1 ([#12](https://github.com/unabandoned/module-deps/issues/12)) ([a61d808](https://github.com/unabandoned/module-deps/commit/a61d80866cc921e2fdcc3763234559e70e126682))
+* **deps:** update unabandoned/.github digest to 7450acb ([#13](https://github.com/unabandoned/module-deps/issues/13)) ([30e1681](https://github.com/unabandoned/module-deps/commit/30e1681e03b73c46364fcaf0dd4377f4035f52fa))
+* drop Tidelift from the security policy ([#9](https://github.com/unabandoned/module-deps/issues/9)) ([b824b2c](https://github.com/unabandoned/module-deps/commit/b824b2c5a6cfaf26ab5f3a7f6c9e0ab6b85a98a4))
+
 ## [6.2.4](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.3...module-deps-v6.2.4) (2026-08-13)
 
 
