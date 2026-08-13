@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.2.4](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.3...module-deps-v6.2.4) (2026-08-13)
+
+
+### Bug Fixes
+
+* **events:** File events were not emitted if files have been cached in the persistent cache. ([28d79ee](https://github.com/unabandoned/module-deps/commit/28d79ee6b96ea601e63bfb5a7af2934c6e4aee7e))
+* **package:** detective@5.2.0 ([d4557b7](https://github.com/unabandoned/module-deps/commit/d4557b70c7ba160c773c470017f7544baa9fe803))
+
+
+### Dependencies & maintenance
+
+* Add appveyor ([68cdfdf](https://github.com/unabandoned/module-deps/commit/68cdfdfb0cc43aef2295e9acf474e2daf7e37535))
+* Add appveyor ([378d34c](https://github.com/unabandoned/module-deps/commit/378d34c0dd01de90ef10db1c17c83e9f4edf387f))
+* set least-privilege top-level permissions on workflows ([#3](https://github.com/unabandoned/module-deps/issues/3)) ([44aa469](https://github.com/unabandoned/module-deps/commit/44aa4695483595462b1cfdfb7377113e63ad8cc1))
+* update test matrix ([865674d](https://github.com/unabandoned/module-deps/commit/865674d272e9abe68e6aebc2f75f4ef7dc62b27a))
+* update test matrix ([ba707f0](https://github.com/unabandoned/module-deps/commit/ba707f0c88fd75391905bd423cd1a838b2c83d17))
+* update test matrix ([#157](https://github.com/unabandoned/module-deps/issues/157)) ([865674d](https://github.com/unabandoned/module-deps/commit/865674d272e9abe68e6aebc2f75f4ef7dc62b27a))
+
 ## 6.2.3 - 2020-08-03
 * Improve error message when dependencies cannot be found [#123](https://github.com/browserify/module-deps/pull/123)
 * Upgrade `browser-resolve` to 2.0 [#164](https://github.com/browserify/module-deps/pull/164)
