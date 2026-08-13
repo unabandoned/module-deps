@@ -2,7 +2,7 @@ var parser = require('../');
 var test = require('./tap-adapter').test;
 var fs = require('fs');
 var path = require('path');
-var xtend = require('xtend');
+function xtend () { return Object.assign.apply(null, [{}].concat([].slice.call(arguments))); }
 
 var files = {
     abc: path.join(__dirname, '/expose/lib/abc.js'),
