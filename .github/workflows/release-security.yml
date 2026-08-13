@@ -2,6 +2,8 @@ name: release-security
 on:
   pull_request:
     types: [closed]
+permissions:
+  contents: read
 jobs:
   security-release:
     permissions:
