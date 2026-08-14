@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.2.6](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.5...module-deps-v6.2.6) (2026-08-14)
+
+
+### Bug Fixes
+
+* repoint browser-resolve at its [@unabandoned](https://github.com/unabandoned) fork ([#17](https://github.com/unabandoned/module-deps/issues/17)) ([523904f](https://github.com/unabandoned/module-deps/commit/523904f50333fc1cd40139e38002c6c933b43165))
+
+
+### Dependencies & maintenance
+
+* **deps:** update unabandoned/.github digest to 65e1d30 ([#16](https://github.com/unabandoned/module-deps/issues/16)) ([5dd36f5](https://github.com/unabandoned/module-deps/commit/5dd36f57a870feeca4e698912e861f2d97d06fc1))
+* **deps:** update unabandoned/.github digest to 6be3bc5 ([#14](https://github.com/unabandoned/module-deps/issues/14)) ([b9ae039](https://github.com/unabandoned/module-deps/commit/b9ae039147dff0ccdf105851ebb4800684439c63))
+
 ## [6.2.5](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.4...module-deps-v6.2.5) (2026-08-13)
 
 
