@@ -2,6 +2,21 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.2.7](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.6...module-deps-v6.2.7) (2026-08-14)
+
+
+### Bug Fixes
+
+* repoint JSONStream at its [@unabandoned](https://github.com/unabandoned) fork ([#22](https://github.com/unabandoned/module-deps/issues/22)) ([b30ce51](https://github.com/unabandoned/module-deps/commit/b30ce51e24a81df5a0dee1f50ac4ff839f4ac8ca))
+
+
+### Dependencies & maintenance
+
+* add .unabandoned.yml dashboard metadata ([#18](https://github.com/unabandoned/module-deps/issues/18)) ([4b3bf64](https://github.com/unabandoned/module-deps/commit/4b3bf6402d80ac9cd5863253530cdca5d76b3000))
+* **deps:** update unabandoned/.github digest to 88ce617 ([#19](https://github.com/unabandoned/module-deps/issues/19)) ([3c35358](https://github.com/unabandoned/module-deps/commit/3c3535825870887ee53273aa95b2492dcd7c6d80))
+* **deps:** update unabandoned/.github digest to d493a18 ([#21](https://github.com/unabandoned/module-deps/issues/21)) ([65e63d9](https://github.com/unabandoned/module-deps/commit/65e63d94eb1ddb61897dbb2536b103a268086421))
+* pin reusable workflows to the @unabandoned/.github v1.0.0 release ([#23](https://github.com/unabandoned/module-deps/issues/23)) ([0957be6](https://github.com/unabandoned/module-deps/commit/0957be64e6bc787de511e274a832dc7b696c7e7e))
+
 ## [6.2.6](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.5...module-deps-v6.2.6) (2026-08-14)
 
 
