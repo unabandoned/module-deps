@@ -1,0 +1,23 @@
+schema: 1
+
+package: "@unabandoned/module-deps"
+
+upstream:
+  repo: browserify/module-deps
+  reason: "unmaintained upstream in the browserify ecosystem — left idle while its dependency tree ages"
+
+summary: >-
+  Walks the require() dependency graph of a set of entry files and emits a JSON
+  stream of module records suitable for feeding into browser-pack.
+
+why-forked: >-
+  A core browserify pipeline stage that went unmaintained while its dependency
+  tree aged; forked so Renovate keeps that tree current for consumers.
+
+status: active
+
+used-by:
+  - consumer: "@unabandoned/browserify"
+    purpose: "Builds the module dependency graph that the bundler packs."
+
+tags: [browserify, dependency-graph, require, ast]
