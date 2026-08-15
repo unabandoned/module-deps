@@ -1,7 +1,6 @@
 var parser = require('../');
 var test = require('./tap-adapter').test;
 var fs = require('fs');
-var concat = require('concat-stream');
 var path = require('path');
 
 var files = {
