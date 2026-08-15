@@ -2,7 +2,7 @@ var mdeps = require('../');
 var test = require('./tap-adapter').test;
 var JSONStream = require('JSONStream');
 var packer = require('browser-pack');
-var concat = require('concat-stream');
+var concat = require('./concat');
 var path = require('path');
 
 test('pkg filter', function (t) {

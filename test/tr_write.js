@@ -3,7 +3,7 @@ var test = require('./tap-adapter').test;
 var JSONStream = require('JSONStream');
 var packer = require('browser-pack');
 var path = require('path');
-var concat = require('concat-stream');
+var concat = require('./concat');
 
 test('transform write', function (t) {
     t.plan(1);
