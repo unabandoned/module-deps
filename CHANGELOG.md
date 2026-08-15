@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.2.8](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.7...module-deps-v6.2.8) (2026-08-15)
+
+
+### Bug Fixes
+
+* **cli:** support bracketed transform options and drop the subarg dependency ([#24](https://github.com/unabandoned/module-deps/issues/24)) ([3eaf51e](https://github.com/unabandoned/module-deps/commit/3eaf51e9c036100da56badcb43e4791c5e631d7d))
+
+
+### Dependencies & maintenance
+
+* replace concat-stream with the in-tree node:stream concat helper ([#25](https://github.com/unabandoned/module-deps/issues/25)) ([fe7fdd4](https://github.com/unabandoned/module-deps/commit/fe7fdd4d49c47d307b9d47406f42718273611e44))
+
 ## [6.2.7](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.6...module-deps-v6.2.7) (2026-08-14)
 
 
