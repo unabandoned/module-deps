@@ -31,8 +31,8 @@
     "browser-resolve": "npm:@unabandoned/browser-resolve@^2",
     "cached-path-relative": "1.1.0",
     "detective": "npm:@unabandoned/detective@^5.2.2",
-    "resolve": "1.22.12",
-    "subarg": "1.0.0"
+    "minimist": "1.2.8",
+    "resolve": "1.22.12"
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.1",

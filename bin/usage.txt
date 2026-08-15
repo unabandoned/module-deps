@@ -7,3 +7,7 @@ OPTIONS are:
   -t TRANSFORM  Apply a TRANSFORM.
   -g TRANSFORM  Apply a global TRANSFORM.
 
+  To pass options to a transform, wrap it in brackets:
+
+    module-deps main.js -t [ ./tr.js --presets es2015 ]
+
