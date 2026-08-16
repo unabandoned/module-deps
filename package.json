@@ -35,8 +35,8 @@
     "resolve": "1.22.12"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.2.1",
-    "@commitlint/config-conventional": "21.2.0",
+    "@commitlint/cli": "21.2.2",
+    "@commitlint/config-conventional": "21.2.2",
     "browser-pack": "npm:@unabandoned/browser-pack@6.1.4",
     "through2": "5.0.11"
   },
