@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.2.10](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.9...module-deps-v6.2.10) (2026-08-18)
+
+
+### Dependencies & maintenance
+
+* **deps:** update commitlint monorepo to v21.2.2 ([#29](https://github.com/unabandoned/module-deps/issues/29)) ([53ca22d](https://github.com/unabandoned/module-deps/commit/53ca22d387d1ebf02f6073be26ec4daa1e117749))
+* **deps:** update unabandoned/.github action to v1.0.1 ([#31](https://github.com/unabandoned/module-deps/issues/31)) ([478da58](https://github.com/unabandoned/module-deps/commit/478da5863606d6c73ed5751fd36575ee7b629e42))
+
 ## [6.2.9](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.8...module-deps-v6.2.9) (2026-08-15)
 
 
