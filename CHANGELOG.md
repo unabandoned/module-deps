@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.2.11](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.10...module-deps-v6.2.11) (2026-09-04)
+
+
+### Dependencies & maintenance
+
+* **deps:** update dependency browser-pack to v6.1.5 ([#34](https://github.com/unabandoned/module-deps/issues/34)) ([76fd26f](https://github.com/unabandoned/module-deps/commit/76fd26fa8e58ad2556a4a05268a8f61dd380af3c))
+
 ## [6.2.10](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.9...module-deps-v6.2.10) (2026-08-23)
 
 
