@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.2.11](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.10...module-deps-v6.2.11) (2026-09-22)
+
+
+### Dependencies & maintenance
+
+* **deps:** update dependency browser-pack to v6.1.5 ([#34](https://github.com/unabandoned/module-deps/issues/34)) ([76fd26f](https://github.com/unabandoned/module-deps/commit/76fd26fa8e58ad2556a4a05268a8f61dd380af3c))
+* **deps:** update unabandoned/.github action to v1.0.4 ([#36](https://github.com/unabandoned/module-deps/issues/36)) ([1faa25c](https://github.com/unabandoned/module-deps/commit/1faa25ce190b2074648e260f4485995104be5d7a))
+* **deps:** update unabandoned/.github action to v1.0.5 ([#37](https://github.com/unabandoned/module-deps/issues/37)) ([4075c1a](https://github.com/unabandoned/module-deps/commit/4075c1ad80457fe43fc925a230e86fe212e81c3d))
+* **deps:** update unabandoned/.github action to v1.1.0 ([#38](https://github.com/unabandoned/module-deps/issues/38)) ([eea4143](https://github.com/unabandoned/module-deps/commit/eea41436c6b315d728acde33e2379dbb6e3a91e6))
+
 ## [6.2.10](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.9...module-deps-v6.2.10) (2026-08-23)
 
 
