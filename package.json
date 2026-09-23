@@ -1,6 +1,12 @@
 {
   "name": "@unabandoned/module-deps",
   "version": "6.2.12",
+  "files": [
+    "CHANGELOG.md",
+    "bin",
+    "index.js",
+    "lib"
+  ],
   "description": "walk the dependency graph to generate json output that can be fed into browser-pack",
   "main": "index.js",
   "bin": {
