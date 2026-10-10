@@ -1,6 +1,6 @@
 {
   "name": "@unabandoned/module-deps",
-  "version": "6.2.12",
+  "version": "6.2.13",
   "files": [
     "CHANGELOG.md",
     "bin",
