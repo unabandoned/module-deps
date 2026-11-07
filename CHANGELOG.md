@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.2.14](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.13...module-deps-v6.2.14) (2026-11-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency resolve to v1.22.14 ([#58](https://github.com/unabandoned/module-deps/issues/58)) ([2933835](https://github.com/unabandoned/module-deps/commit/2933835bd7821c16c84aee5e4732af0508063851))
+
 ## [6.2.13](https://github.com/unabandoned/module-deps/compare/module-deps-v6.2.12...module-deps-v6.2.13) (2026-10-13)
 
 
