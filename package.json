@@ -44,7 +44,7 @@
     "@commitlint/cli": "21.2.4",
     "@commitlint/config-conventional": "21.2.4",
     "browser-pack": "npm:@unabandoned/browser-pack@6.1.7",
-    "through2": "5.0.12"
+    "through2": "5.0.13"
   },
   "scripts": {
     "prepare": "git config core.hooksPath .githooks || true",
